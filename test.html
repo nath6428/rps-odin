@@ -11,28 +11,28 @@
     </head>
     <body>
         <div class = "name-div" id = "name-div">
-            <input class = "input-box" placeholder="Name">
+            <input class = "input-box" id = "input-box" placeholder="Name">
         </div>
         <div class = "main-div" id = "main-div">
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+            <button id = "button1">Rock</button>
+            <button id = "button2">Paper</button>
+            <button id = "button3">Scissors</button>
         </div>
        <div class = "results-div" id = "results-div">
             <div class = "results-selection-div">
                 <div class = "results-player-div">
-                    <p>Player:</p>
+                    <p id="player-name" class = "results-text">Player:</p>
                     <hr style="border: 1px solid black; width: 150px;">
-                    <p>Rock</p>
+                    <p id = "player-selection" class = "results-text">Rock</p>
                 </div>
                 <div class = "results-player-div">
-                    <p>Computer:</p>
+                    <p class = "results-text">Computer:</p>
                     <hr style="border: 1px solid black; width: 150px;">
-                    <p>Rock</p>
+                    <p class = "results-text" id = "computer-selection">Rock</p>
                 </div>
             </div>
-            <div>
-                <p class="winner-tag">Player Wins!</p>
+            <div class = "results-player-div">
+                <p class = "results-text" id="winner-tag">Player Wins!</p>
             </div>
        </div>
         
