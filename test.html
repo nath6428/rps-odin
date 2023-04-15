@@ -10,12 +10,31 @@
         <link rel="stylesheet" href="rps.css">
     </head>
     <body>
-        <div id = "main-div">
+        <div class = "name-div" id = "name-div">
+            <input class = "input-box" placeholder="Name">
+        </div>
+        <div class = "main-div" id = "main-div">
             <button>Rock</button>
             <button>Paper</button>
             <button>Scissors</button>
         </div>
-       
+       <div class = "results-div" id = "results-div">
+            <div class = "results-selection-div">
+                <div class = "results-player-div">
+                    <p>Player:</p>
+                    <hr style="border: 1px solid black; width: 150px;">
+                    <p>Rock</p>
+                </div>
+                <div class = "results-player-div">
+                    <p>Computer:</p>
+                    <hr style="border: 1px solid black; width: 150px;">
+                    <p>Rock</p>
+                </div>
+            </div>
+            <div>
+                <p class="winner-tag">Player Wins!</p>
+            </div>
+       </div>
         
         <script src="RPS.JS" async defer></script>
     </body>

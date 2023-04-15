@@ -42,8 +42,11 @@ function computerSelection() {
 }
 
 
-const playerSelection = prompt('rock, paper, scissors').toLowerCase()
+/*const playerSelection = prompt('rock, paper, scissors').toLowerCase()
 const compSelection = computerSelection()
-console.log(playerSelection, compSelection, RPS(compSelection, playerSelection))
+console.log(playerSelection, compSelection, RPS(compSelection, playerSelection))*/
+
+var playerName = document.getElementById("input-box")
+
 
 
